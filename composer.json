@@ -1,23 +1,23 @@
 {
-    "name": "ghost/google-authenticator",
-    "description": "Google 两步验证码 ",
+    "name": "owenxyoung/google-authenticator",
+    "description": "Google 两步验证码 Laravel-admin 扩展",
     "type": "package",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/Ghost-die/google-authenticator",
+    "homepage": "https://github.com/qcgzxw/google-authenticator",
     "license": "MIT",
     "authors": [
         {
-            "name": "ghost",
-            "email": "ghost@ghost-ai.com"
+            "name": "qcgzxw",
+            "email": "qcgzxw.com@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3",
         "encore/laravel-admin": "^1.6",
-        "simplesoftwareio/simple-qrcode": "^2.0"
+        "simplesoftwareio/simple-qrcode": "^4.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "~9.0"
     },
     "autoload": {
         "psr-4": {
